@@ -1,17 +1,5 @@
 html {
   font-size: 12px;
-  @media (width: 320px) {
-    font-size: 10px;
-  }
-  @media (min-width: 320, max-width: 893px) {
-    font-size: 12px;
-  }
-  @media (min-width: 894px) {
-    font-size: 20px;
-  }
-  @media (min-width: 1920px) {
-    font-size: 30px;
-  }
 }
 
 body {
@@ -30,3 +18,20 @@ code {
     monospace;
 }
 
+@media (width: 320px) {
+  html{ font-size: 10px; }
+}
+
+@media (min-width: 320px) and (max-width: 893px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 894px) {
+  html {font-size: 20px;}
+}
+
+@media (min-width: 1920px) {
+  html {font-size: 30px;}
+}
