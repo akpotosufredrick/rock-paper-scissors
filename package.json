@@ -2,6 +2,12 @@
   "name": "rock-paper-scissors",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Fredrick A-Nartey",
+    "email": "info@elitemedia.services"
+  },
+  "description": "A rock paper scissors game built with React and Tauri",
+  "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
@@ -46,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@tauri-apps/cli": "^1.3.1",
     "@types/react-dom": "^18.0.11",
     "@types/styled-components": "^5.1.26"
   }
